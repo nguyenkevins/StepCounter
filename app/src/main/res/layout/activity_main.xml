@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/stepcounter"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+
+        app:cpb_background_progressbar_color="#F2F2F2"
+        app:cpb_background_progressbar_width="20dp"
+        app:cpb_progressbar_color="@color/blue_progress"
+        app:cpb_progressbar_width="15dp"
+        app:cpb_round_border="true"
+
+        app:cpb_progress_max="10000"/>
+
+    <TextView
+        android:id="@+id/textview_quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="START MOVING"
+        android:textSize="40sp"
+        android:translationY="-250dp"/>
+
+    <TextView
+        android:id="@+id/textview_currentSteps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Denied"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/textview_maxSteps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="/ 10000"
+        android:textSize="15sp"
+        android:translationY="50dp"/>
+
+
+    <Button
+        android:id="@+id/button_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAX"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:layout_below="@id/stepcounter"
+        android:layout_centerHorizontal="true"
+        android:translationX="-100dp" />
+
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:layout_below="@id/stepcounter"
+        android:layout_centerHorizontal="true"
+        android:translationX="100dp" />
+
+</RelativeLayout>
