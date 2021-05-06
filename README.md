@@ -19,12 +19,9 @@ This mobile programming sample was made to continue with the software engineerin
 
 ### Installing
 
-* Install Android Studio and Android SDK (get latest version)
-* You can use HTTPS, SSH, or GitHub CLI to install the source
-  a) HTTPS      : https://github.com/nguyenkevins/StepCounter-AndroidDemo.git
-  b) SSH        : git@github.com:nguyenkevins/StepCounter-AndroidDemo.git
-  c) GitHub CLI : gh repo clone nguyenkevins/StepCounter-AndroidDemo
-* Next, import the source using gradle on Android Studio
+* First, install Android Studio and Android SDK (get latest version).
+* You can use HTTPS, SSH, or GitHub CLI to install the source (provided from the repository).
+* Next, import the source using gradle on Android Studio.
 
 ### Executing program
 
