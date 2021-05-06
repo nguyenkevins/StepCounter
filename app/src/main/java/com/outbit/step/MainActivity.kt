@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
 
         running = true
 
-        loadData()
-        saveData()
+        //loadData()
+        //saveData()
         resetSteps()
         toggleMax()
 
