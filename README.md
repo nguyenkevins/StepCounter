@@ -1,4 +1,4 @@
-![alt text](https://github.com/nguyenkevins/StepCounter/blob/main/ProjectImageStepCounter.png)
+![alt text](https://github.com/nguyenkevins/StepCounter-AndroidDemo/blob/main/ProjectImageStepCounter.png)
 
 # Step Counter - Android Demo
 
@@ -45,7 +45,7 @@ This mobile programming sample was made to continue with the software engineerin
 ```
 
 ## Screenshot
-![alt text](https://github.com/nguyenkevins/StepCounter/blob/main/StepCounterScreenshots.png)
+![alt text](https://github.com/nguyenkevins/StepCounter-AndroidDemo/blob/main/StepCounterScreenshots.png)
 
 ## Authors
 
