@@ -53,6 +53,7 @@ Kevin Nguyen - https://www.linkedin.com/in/nguyenkevins/
 
 * 1.0
     * Initial Release
+    * There are a few bugs. I will look at them if necessary.
 
 ## License
 
