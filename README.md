@@ -3,6 +3,7 @@
 # Step Counter - Android Demo
 
 A demo of utilizing the device's motion sensor, specifically using the step counter sensor.
+Because I will be using the Android step counter sensor, it will have more latency (7 seconds of movement until it starts recording), but more accuracy (higher chance of getting the correct number of steps).
 
 ## Description
 
