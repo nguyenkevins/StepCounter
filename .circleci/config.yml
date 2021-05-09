@@ -23,14 +23,14 @@ jobs:
       - android/run-tests:
           test-command: ./gradlew lint testDebug --continue
 
+      - run:
+          name: Permission
+          command: sudo chmod +x ./gradlew
+
       # Then start the emulator and run the Instrumentation tests!
       - android/start-emulator-and-run-tests:
           test-command: ./gradlew connectedDebugAndroidTest
           system-image: system-images;android-30;google_apis;x86
-
-      - run:
-          name: Permission
-          command: sudo chmod +x ./gradlew
 
       # And finally run the release build
       - run:
