@@ -17,6 +17,10 @@ jobs:
       # Checkout the code as the first step.
       - checkout
 
+      - run:
+          name: Permission
+          command: sudo chmod +x ./gradlew
+
       # The next step will run the unit tests
       - android/run-tests:
           test-command: ./gradlew lint testDebug --continue
@@ -29,7 +33,9 @@ jobs:
       # And finally run the release build
       - run:
           name: Assemble release build
-          command: sudo chmod +x ./gradlew
+          command: |
+            ./gradlew assembleRelease  
+
 
 workflows:
   # Below is the definition of your workflow.
