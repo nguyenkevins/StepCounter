@@ -30,6 +30,8 @@ jobs:
       - run:
           name: Assemble release build
           command: |
+             git update-index --chmod=+x gradlew
+            git commit -m "Make gradlew executable"
             ./gradlew assembleRelease    
 
 workflows:
