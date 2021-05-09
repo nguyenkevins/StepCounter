@@ -17,15 +17,13 @@ jobs:
       # Checkout the code as the first step.
       - checkout
 
-
+      - run:
+          name: Permission
+          command: sudo chmod +x ./gradlew
 
       # The next step will run the unit tests
       - android/run-tests:
           test-command: ./gradlew lint testDebug --continue
-
-      - run:
-          name: Permission
-          command: sudo chmod +x ./gradlew
 
       # Then start the emulator and run the Instrumentation tests!
       - android/start-emulator-and-run-tests:
