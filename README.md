@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/nguyenkevins/StepCounter-AndroidDemo.svg?style=svg)](https://app.circleci.com/pipelines/github/nguyenkevins/StepCounter-AndroidDemo/19/workflows/2133d110-28fe-4034-9f20-00867b20402d/jobs/27)
+[![CircleCI](https://circleci.com/gh/nguyenkevins/StepCounter-AndroidDemo.svg?style=shield)](https://app.circleci.com/pipelines/github/nguyenkevins/StepCounter-AndroidDemo/19/workflows/2133d110-28fe-4034-9f20-00867b20402d/jobs/27) [![CircleCI](https://circleci.com/gh/nguyenkevins/StepCounter-AndroidDemo.svg?style=svg)](https://app.circleci.com/pipelines/github/nguyenkevins/StepCounter-AndroidDemo/19/workflows/2133d110-28fe-4034-9f20-00867b20402d/jobs/27) 
 
 ![alt text](https://github.com/nguyenkevins/StepCounter-AndroidDemo/blob/main/ProjectImageStepCounter.png)
 
