@@ -18,6 +18,10 @@ jobs:
       - checkout
 
       - run:
+          name: Wrapper
+          command: gradle wrapper 
+
+      - run:
           name: Permission
           command: chmod +x ./gradlew
 
