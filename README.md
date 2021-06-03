@@ -7,9 +7,6 @@
 A demo of utilizing the device's motion sensor, specifically using the step counter sensor.
 Because I will be using the Android step counter sensor, **it will have more latency (7 seconds of movement until it starts recording), but more accuracy (higher chance of getting the correct number of steps)**.
 
-## Description
-
-This mobile programming sample was made to continue with the software engineering internship application at Tidyware, located in Bellevue (WA). The sample requirement for creating an android application of the project includes using Kotlin and motion sensors to create an app with functionality. I have provided a small write-up about the project below. 
 
 ## Getting Started 
 
